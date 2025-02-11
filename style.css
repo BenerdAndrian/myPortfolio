@@ -11,7 +11,7 @@ html{
 body{
     background:url(res/backgroundIMG.jpg);
     background-repeat:no-repeat;
-   
+    background-size:cover;
 }
 ul{
     display:flex;
@@ -28,10 +28,11 @@ header{
     background-color:rgb(49, 175, 116);
     color:rgb(255, 201, 135);
     margin:auto;
-    padding:1.2rem;
+    padding: 2rem 1.2rem;
 }
 li{
     list-style:none;
+    cursor:pointer;
 }
 ul li img{
     width:340px;
@@ -44,17 +45,19 @@ ul li img{
     display:flex;
 
 }
+h1,.me span,.me span span,.me span q{
+    margin:1rem;
+}
 .me span q{
     font-size:1.2rem;
+    margin:1rem;
 }
-.me span{
-    vertical-align: center;
-}
+
 .me span span{
     font-size:1.6rem;
     font-weight:bold;
 }
 .myAvatar{
-    width:5rem;
-    height:5rem;
+    width:6rem;
+    height:6rem;
 }
